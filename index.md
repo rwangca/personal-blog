@@ -19,7 +19,6 @@ title: Rachel Wang
 
 
 * <a href="mailto:rachel@rwang.ca">Email</a>
-* <a href="https://twitter.com/rwangca">Twitter</a>
 * <a href="https://ca.linkedin.com/in/rwangca">LinkedIn</a>
 * <a href="https://github.com/rwangca">Github</a>
 
