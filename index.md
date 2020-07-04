@@ -12,7 +12,7 @@ title: Rachel Wang
 * Software Developer <a href="https://onesearch.library.utoronto.ca/"> @ University of Toronto Libraries </a>
 * Instructor <a href="https://carpentries.org/"> @ The Carpentries </a>
 * Event organizer  <a href="https://code4libtoronto.github.io/"> @ Code4Lib Toronto</a>
-* <a href="/speaking/index.html">Speaking & Teaching </a>
+* <a href="/speaking/index.html"> Teaching </a>
 
 <br>
 <br>
