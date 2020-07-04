@@ -1,6 +1,6 @@
 ---
 layout: speaking.liquid
-title: Speaking and Teaching
+title: Teaching
 ---
 
 <br>
@@ -23,17 +23,6 @@ title: Speaking and Teaching
 
 *PyLadies Toronto Meetup*
 
-<br>
 
 
-#### Speaking
 
-*  <a href="https://2019.pycon.ca/talks/talk-147/">__Pycon Canada 2019__</a> &nbsp;(November 2019)
-
-    *Data Insights from Linked Data*
-* <a href="https://docs.google.com/presentation/d/1OVMHnT2bSTYgIfak2kGk3zRVUUo6vUu8_IMb0-26gLY/edit?usp=sharing"> __Code4Lib Toronto Lightning Talk__ </a> &nbsp;(July 2019)
-
-    *Adventures in DSpace*
-*  <a href="https://docs.google.com/presentation/d/14xDy2ylz0JoNm4n8hV2ApfH-dtEUwy7Wq96OnRJpTkI/edit?usp=sharing"> __Code4Lib North 2019 Conference__ </a> &nbsp;(April 2019)
-
-   *Why Vue.js*
