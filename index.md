@@ -21,7 +21,7 @@ function toggleTheme() {
 
 <br>
 <br>
-Hello/Bonjour, my name is Rachel. I'm a software developer with a passion for learning. I work <a href="https://onesearch.library.utoronto.ca/"> @ University of Toronto Libraries </a> & sometimes <a href="/speaking/index.html"> teach and speak</a>. As I teach myself new things, I also enjoy sharing my knowledge with others as an instructor <a href="https://carpentries.org/">@ The Carpentries </a>. If I'm not in front of a keyboard, I am probably hanging out and organizing a <a href="https://code4libtoronto.github.io/"> Code4Lib Toronto</a> events.
+Hello/Bonjour, my name is Rachel. I'm a software developer with a passion for learning. I work <a href="https://onesearch.library.utoronto.ca/"> @ University of Toronto Libraries </a> & sometimes <a href="/speaking/index.html"> teach and speak</a>. As I teach myself new things, I also enjoy sharing my knowledge with others as an instructor <a href="https://carpentries.org/">@ The Carpentries </a>. If I'm not in front of a keyboard, I might be organizing a <a href="https://code4libtoronto.github.io/"> Code4Lib Toronto</a> event.
 
 <br>
 <br>
