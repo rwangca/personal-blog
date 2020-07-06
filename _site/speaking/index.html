@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Speaking and Teaching" />
-    <title>Speaking and Teaching</title>
+    <meta name="Description" content="Teaching & Speaking" />
+    <title>Teaching & Speaking</title>
     <link
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400&display=swap"
       rel="stylesheet"
@@ -18,15 +18,30 @@
   </head>
   <body>
     <div class="container post-container">
-        <h1>Speaking and Teaching</h1>
+        <br>
+        <div class="back-link">
+          <a href="/" aria-label="go back to home page">← home page</a>
+        </div>
+        <h1>Teaching & Speaking</h1>
+     
       <div class='content'><br>
-<h4>Workshops</h4>
+  <input type="checkbox" class="nightMode" onclick="toggleTheme()"> 
+<br>
+<script>
+function toggleTheme() {
+   var element = document.body;
+   element.classList.toggle("nightMode");
+}
+</script>
+<br>
+<h3>Workshops</h3>
+<br>
 <ul>
 <li><a href="https://docs.google.com/presentation/d/12bTlX9TLeKlBgRKVjLKifcON3wQde0GvZbGAUD3DaZI/edit?usp=sharing"> <strong>Introduction to Git</strong> </a>  (September 2019)</li>
 </ul>
 <p><em>University of Toronto Libraries</em></p>
 <ul>
-<li><strong>Introduction to OpenRefine</strong>   (April 2019)</li>
+<li><strong>Introduction to OpenRefine</strong>  (April 2019)</li>
 </ul>
 <p><em>Ryerson University Library</em></p>
 <ul>
@@ -42,7 +57,8 @@
 </ul>
 <p><em>PyLadies Toronto Meetup</em></p>
 <br>
-<h4>Speaking</h4>
+<h3>Talks</h3>
+<br>
 <ul>
 <li>
 <p><a href="https://2019.pycon.ca/talks/talk-147/"><strong>Pycon Canada 2019</strong></a>  (November 2019)</p>
@@ -58,10 +74,8 @@
 </li>
 </ul>
 </div>
-      <div class="back-link">
-        <a href="/">← home page</a>
-      </div>
+ 
     </div>
-    <footer> Made with ❤️ & <a href="https://www.11ty.dev/">11ty</a> | Template by <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">@arpitbatra123</a></footer>
+    <footer>Rachel Wang © 2020 | Made with ❤️ & <a href="https://www.11ty.dev/">11ty</a> | Template by <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">@arpitbatra123</a></footer>
   </body>
 </html>

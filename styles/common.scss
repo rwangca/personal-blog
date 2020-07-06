@@ -1,8 +1,7 @@
-
-$bg-color: #E1F2F7;
-$text-color:#394655;
-$highlighted-color: #E5BACE;
-$anchor-text-color: #EF0D50;
+$bg-color: white;
+$text-color: #394655;
+$highlighted-color: #e5bace;
+$anchor-text-color: #ef0d50;
 
 ::selection {
   color: white;
@@ -30,7 +29,7 @@ body {
   blockquote {
     margin: 16px 0;
     padding: 0 1em;
-    color: brown;
+    color: #ef0d50;
     border-left: 0.25em solid;
   }
 }

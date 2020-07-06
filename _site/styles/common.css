@@ -1,10 +1,10 @@
 ::selection {
   color: white;
-  background-color: #E5BACE; }
+  background-color: #e5bace; }
 
 ::-moz-selection {
   color: white;
-  background-color: #E5BACE; }
+  background-color: #e5bace; }
 
 * {
   margin: 0;
@@ -13,19 +13,19 @@
 body {
   font-family: "IBM Plex Sans", sans-serif;
   color: #394655;
-  background: #E1F2F7; }
+  background: white; }
 
 .container {
   margin: 40px 32%; }
   .container blockquote {
     margin: 16px 0;
     padding: 0 1em;
-    color: brown;
+    color: #ef0d50;
     border-left: 0.25em solid; }
 
 a {
   text-decoration: none;
-  color: #EF0D50; }
+  color: #ef0d50; }
   a:hover {
     cursor: pointer;
     text-decoration: underline; }

@@ -19,11 +19,22 @@
   <body>
     <div class="container post-container">
         <h1>{{ title }}</h1>
+        <br>
+          <input type="checkbox" class="nightMode" onclick="toggleTheme()">  
+        <br>
+    
+      <script>
+      function toggleTheme() {
+        var element = document.body;
+        element.classList.toggle("nightMode");
+      }
+      </script>
       <div class='content'>{{ content }}</div>
-      <div class="back-link">
-        <a href="/">← home page</a>
-      </div>
+
+      <br>
+      <div class="back-link"><a href="/" aria-label="go back to home page">← home page</a></div>
+    
     </div>
-    <footer> Made with ❤️ & <a href="https://www.11ty.dev/">11ty</a> | Template by <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">@arpitbatra123</a></footer>
+    <footer> Rachel Wang © 2020 | Made with ❤️ & <a href="https://www.11ty.dev/">11ty</a> | Template by <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">@arpitbatra123</a></footer>
   </body>
 </html>

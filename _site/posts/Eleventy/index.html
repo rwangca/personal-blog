@@ -19,15 +19,27 @@
   <body>
     <div class="container post-container">
         <h1>Hello Eleventy</h1>
-      <div class='content'><blockquote>
-<p><a href="https://www.11ty.dev/">Eleventy is a simpler static site generator</a></p>
+        <br>
+          <input type="checkbox" class="nightMode" onclick="toggleTheme()">  
+        <br>
+    
+      <script>
+      function toggleTheme() {
+        var element = document.body;
+        element.classList.toggle("nightMode");
+      }
+      </script>
+      <div class='content'><br>
+<blockquote>
+<p>Eleventy the static site generator</p>
 </blockquote>
-<p>I've been reading about eleventy and took the plunge this weekend. I previously used Jekyll and have found eleventy to be just as straight-forward and quick to hit the ground running. I like that we have the freedom and flexibility to choose template languages, I think it's a bonus that we can easily migrate to another template engine should we choose to. I found the <a href="https://www.11ty.dev/docs/starter/">starter projects</a> extremely helpful and tested out a few before I settled on something miminalist. 🍾 Cheers to the fresh new look, I'm really excited to get some content on here. If you've been on the fence about trying this static site generator, I'd take a dive and test it out, you can get up an running within day.</p>
+<p>I've been reading about eleventy and took the plunge this weekend. I previously used Jekyll and have found eleventy to be just as straight-forward and quick to hit the ground running. I like that we have the freedom and flexibility to choose template languages, I think it's a bonus that we can easily migrate to another template engine should we choose to. I found the <a href="https://www.11ty.dev/docs/starter/">starter projects</a> extremely helpful and tested out a few before I settled on something miminalist. 🍾 Cheers to the fresh new look, I'm really excited to get some content on here. If you've been on the fence about trying this static site generator, I'd take a dive and test it out, you can get up and running within day.</p>
 </div>
-      <div class="back-link">
-        <a href="/">← home page</a>
-      </div>
+
+      <br>
+      <div class="back-link"><a href="/" aria-label="go back to home page">← home page</a></div>
+    
     </div>
-    <footer> Made with ❤️ & <a href="https://www.11ty.dev/">11ty</a> | Template by <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">@arpitbatra123</a></footer>
+    <footer> Rachel Wang © 2020 | Made with ❤️ & <a href="https://www.11ty.dev/">11ty</a> | Template by <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">@arpitbatra123</a></footer>
   </body>
 </html>

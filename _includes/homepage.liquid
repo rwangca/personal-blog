@@ -14,12 +14,14 @@
     <link rel="stylesheet" href="./styles/homepage.css" />
     <link rel="stylesheet" href="../../styles/prism-theme.css"/>
     <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/241/woman-technologist-light-skin-tone_1f469-1f3fb-200d-1f4bb.png">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="container">
       {{ content }}
-      <h4 class="category">Posts</h4>
+      <h4 class="category">Blog Roll</h4>
+      <p id ="blog-roll-title-desc">Posts about Tech & Other Musings</p>
+      <br>
       <ul class="posts">
       {% for post in collections.posts reversed %}
         <li class="post">
@@ -37,6 +39,7 @@
       {% endfor %}
     </ul>
     </div>
-    <footer>Made with ❤️ & <a href="https://www.11ty.dev/">11ty</a> | Template by <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">@arpitbatra123</a></footer>
+       <br>
+    <footer> Rachel Wang © 2020 | Made with ❤️ & <a href="https://www.11ty.dev/">11ty</a> | Template by <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">@arpitbatra123</a></footer>
   </body>
 </html>
